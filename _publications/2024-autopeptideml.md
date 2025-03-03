@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-autopeptideml
 excerpt: 'This paper discusses the design of an AutoML tool for building peptide bioactivity predictors and how to ensure their robust evaluation through homology partitioning.'
-date: 2024-09
+date: 2024-09-01
 venue: 'Bioinformatics'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://academic.oup.com/bioinformatics/article/40/9/btae555/7760207'
