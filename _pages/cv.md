@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 * Jan 2023 - Present: Industrial PhD Student
-  * IBM Research | University College Dublin
+  * IBM Research and University College Dublin
   * Duties includes: Foundational multimodal models for protein and peptide representation learning. Demonstrator.
   * Supervisor: Prof. Denis Shields and Dr. Thanh Lam Hoang
 
