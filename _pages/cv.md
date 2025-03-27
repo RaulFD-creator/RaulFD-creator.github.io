@@ -11,35 +11,42 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Bioinformatics and Systems Biology, University College Dublin, 2027 (expected)
+* M.S. in Bioinformatics, with focus on Protein Structure and Drug Design, Autonomous University of Barcelona 2022
+* B.S. in Biotechnology, University of Oviedo, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jan 2023 - Present: Industrial PhD Student
+  * IBM Research | University College Dublin
+  * Duties includes: Foundational multimodal models for protein and peptide representation learning. Demonstrator.
+  * Supervisor: Prof. Denis Shields and Dr. Thanh Lam Hoang
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Feb 2022 - Dec 2022: Research Assistant
+  * Autonomous University of Barcelona (Insilichem research group)
+  * Duties included: Developing a 3D CNN model to predict metal diffusion paths in protein structures.
+  * Supervisor: Dr. Jean-Didier Maréchal
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Nov 2020 - Jun 2021: Research Assistant (intern)
+  * University of Oviedo (BIOMIC research group)
+  * Duties included: Experimental work on genetic engineering of a strain of Streptomyces to produce novel bioactive natural products (PCR, CRISPR-Cas9, HPLC, etc.).
+  * Supervisor: Prof. Carmen Méndez
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Autonomous Research
+* Computational Chemistry
+  * Molecular Dynamics
+  * Docking
+  * RDKit
+* Bioinformatics
+  * Sequence/Structural alignment
+  * Protein structural modelling
+* Machine learning
+  * Protein and Chemical Language Models
+  * Graph Neural Networks
+  * Out-of-distribution quantification
+  * Software engineering
 
 Publications
 ======
