@@ -35,6 +35,9 @@ Work experience
 Skills
 ======
 * Autonomous Research
+  * Project Management
+  * Public Speaking
+  * Scientific writing
 * Computational Chemistry
   * Molecular Dynamics
   * Docking
