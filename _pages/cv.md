@@ -22,7 +22,7 @@ Work experience
   * Duties includes: Foundational multimodal models for protein and peptide representation learning. Demonstrator.
   * Supervisor: Prof. Denis Shields and Dr. Thanh Lam Hoang
 
-* Feb 2022 - Dec 2022: Research Assistant
+* Feb 2022 - Dec 2022: Research and Development Assistant
   * Autonomous University of Barcelona (Insilichem research group)
   * Duties included: Developing a 3D CNN model to predict metal diffusion paths in protein structures.
   * Supervisor: Dr. Jean-Didier Maréchal
