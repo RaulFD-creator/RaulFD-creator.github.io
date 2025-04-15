@@ -29,7 +29,7 @@ Work experience
 
 * Nov 2020 - Jun 2021: Research Assistant (intern)
   * University of Oviedo (BIOMIC research group)
-  * Duties included: Experimental work on genetic engineering of a strain of Streptomyces to produce novel bioactive natural products (PCR, CRISPR-Cas9, HPLC, etc.).
+  * Duties included: Experimental work on genetic engineering of a strain of *Streptomyces* to produce novel bioactive natural products (PCR, CRISPR-Cas9, HPLC, etc.).
   * Supervisor: Prof. Carmen Méndez
   
 Skills
