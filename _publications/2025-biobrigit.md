@@ -1,7 +1,7 @@
 ---
 title: "BioBrigit, a Hybrid Machine Learning and Knowledge-Based Approach to Model Metal Pathways in Proteins: Application to a Dicopper Tyrosinase"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2025-biobrigit.md
 excerpt: 'This paper presents a new prediction tool for identifying metal ion diffusion pathways within proteins, and demonstrates its capabilities by considering the use case of a dicopper tyrosinase.'
 date: 2025-06-06
