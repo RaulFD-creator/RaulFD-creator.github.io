@@ -1,6 +1,6 @@
 ---
 title: "AutoPeptideML"
-excerpt: "Computational tool for building ML models for predicting peptide bioactivity automatically<br/><img src='/images/APML_light.png'>"
+excerpt: "Computational tool for building ML models for predicting peptide bioactivity automatically (https://github.com/IBM/AutoPeptideML)."
 collection: portfolio
 ---
 
