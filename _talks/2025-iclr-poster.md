@@ -8,5 +8,3 @@ date: 2025-04-24
 location: Singapore
 slidesurl: https://raulfd-creator.github.io/files/iclr2025-hestia-good.pdf
 ---
-
-Talk discussing the latest update to the AutoPeptideML library. Presentation given to the Student Council Symposium (SCS) and the Bioinformatics Open Source Conference (BOSC) as part of ISMB 2025.

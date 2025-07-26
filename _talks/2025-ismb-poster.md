@@ -8,5 +8,3 @@ date: 2025-07-22
 location: Liverpool, UK
 slidesurl: https://raulfd-creator.github.io/files/ismb2025-apml2-poster.pdf
 ---
-
-Talk discussing the latest update to the AutoPeptideML library. Presentation given to the Student Council Symposium (SCS) and the Bioinformatics Open Source Conference (BOSC) as part of ISMB 2025.
