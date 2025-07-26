@@ -3,7 +3,7 @@ title: "Modelos que aprenden el lenguaje de las moléculas y cómo utilizarlos p
 collection: talks
 category: keynote
 permalink: /talks/2024-secuah
-venue: "University of Alcala de Henares"
+venue: "Conferencia en Señalización Celullar en Alcalá de Henares (SECUAH) [Keynote]"
 date: 2024-03-19
 location: "Alcala de Henares, Spain"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "AutoPeptideML2: An open-source library for democratising machine learning for peptide bioactivity prediction."
+title: "A new framework for evaluating machine learning in biochemistry and its application for peptides and small molecules"
 collection: talks
 category: poster
 permalink: /talks/2025-ismb-poster
