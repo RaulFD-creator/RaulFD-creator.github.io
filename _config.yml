@@ -77,12 +77,13 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  first-author:
+    title: 'First Author'   
+  pre-print:
+    title: 'Preprint'
   co-author:
     title: 'Co-Author'
-  first-author:
-    title: 'First Author'    
-  pre-print:
-    title: 'Preprints'
+ 
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
