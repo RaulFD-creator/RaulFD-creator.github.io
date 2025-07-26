@@ -1,11 +1,11 @@
 var addressPoints = [
   [
-    "AutoPeptideML2: An open-source library for democratising machine learning for peptide bioactivity prediction.<br />Intelligent Systems for Molecular Biology (ISMB) 2025; Liverpool, UK",
+    "AutoPeptideML2: An open-source library for democratising machine learning for peptide bioactivity prediction.<br />Intelligent Systems for Molecular Biology (ISMB) 2025 [Talk]; Liverpool, UK",
     53.4071991,
     -2.99168
   ],
   [
-    "AutoPeptideML2: An open-source library for democratising machine learning for peptide bioactivity prediction.<br />IRB AI for Drug Discovery 2025 [Poster]; Barcelona, Spain",
+    "A new framework for evaluating machine learning in biochemistry and its application for peptides and small molecules<br />IRB AI for Drug Discovery 2025 [Poster]; Barcelona, Spain",
     41.3825802,
     2.177073
   ],
@@ -15,7 +15,7 @@ var addressPoints = [
     -2.99168
   ],
   [
-    "Modelos que aprenden el lenguaje de las mol\u00e9culas y c\u00f3mo utilizarlos para predecir sus propiedades<br />University of Alcala de Henares; Alcala de Henares, Spain",
+    "Modelos que aprenden el lenguaje de las mol\u00e9culas y c\u00f3mo utilizarlos para predecir sus propiedades<br />Conferencia en Se\u00f1alizaci\u00f3n Celullar en Alcal\u00e1 de Henares (SECUAH) [Keynote]; Alcala de Henares, Spain",
     40.481954,
     -3.363981
   ],
@@ -25,7 +25,7 @@ var addressPoints = [
     103.8194992
   ],
   [
-    "AutoPeptideML: automated machine learning for building peptide bioactivity predictors leveraging protein language models<br />Irish Computational Biology and Genomics Symposium 2023; Galway, Ireland",
+    "AutoPeptideML: automated machine learning for building peptide bioactivity predictors leveraging protein language models<br />Irish Computational Biology and Genomics Symposium [Talk] 2023; Galway, Ireland",
     53.2744122,
     -9.0490601
   ]
