@@ -38,16 +38,17 @@ Skills
   * Project Management
   * Public Speaking
   * Scientific writing
-* Computational Chemistry
+* Computational Chemistry / Cheminformatics
   * Molecular Dynamics
   * Docking
   * RDKit
 * Bioinformatics
   * Sequence/Structural alignment
   * Protein structural modelling
+  * Statistics
 * Machine learning
   * Protein and Chemical Language Models
-  * Graph Neural Networks
+  * Graph Neural Networks / Convolutional Neural Networks
   * Out-of-distribution quantification
   * Software engineering
 
@@ -69,5 +70,17 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- Service and leadership
-====== -->
+Service and leadership
+======
+
+* Reviewer: 31 papers
+  * Nature Communications: 1 paper
+  * Briefings in Bioinformatics: 3 papers
+  * Bioinformatics Advances: 1 paper
+  * NeurIPS: 10 papers
+  * ICML: 6 (main) + 4 (AI4Science) papers
+  * ICLR: 4 papers
+  * AISTATS: 2 papers
+
+* Conference Organiser:
+  * CECAM ["Peptide computational methods and applications"](cecam.org/workshop-details/peptide-computational-methods-and-applications-1425)

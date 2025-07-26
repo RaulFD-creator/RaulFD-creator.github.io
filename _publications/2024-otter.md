@@ -1,12 +1,12 @@
 ---
-title: "BioBrigit, a Hybrid Machine Learning and Knowledge-Based Approach to Model Metal Pathways in Proteins: Application to a Dicopper Tyrosinase"
+title: "Knowledge enhanced representation learning for drug discovery"
 collection: publications
-category: first-author
-permalink: /publication/2025-biobrigit.md
-excerpt: 'This paper presents a new prediction tool for identifying metal ion diffusion pathways within proteins, and demonstrates its capabilities by considering the use case of a dicopper tyrosinase.'
-date: 2025-06-06
-venue: 'ACS Omega'
-paperurl: 'https://pubs.acs.org/doi/10.1021/acsomega.5c00608'
+category: co-author
+permalink: /publication/2024-otter.md
+# excerpt: 'This paper explores how to build m.'
+date: 2024-03-24
+venue: 'Proceedings of the AAAI Conference on Artificial Intelligence'
+paperurl: 'https://ojs.aaai.org/index.php/AAAI/article/view/28924'
 # citation: 'Fernández-Díaz R, Roldán-Martín L, Sodupe M, Sánchez-Aparicio JE, Maréchal JD. BioBrigit, a Hybrid Machine Learning and Knowledge-Based Approach to Model Metal Pathways in Proteins: Application to a Dicopper Tyrosinase. ACS omega. 2025 Jun 6.
 # '
 ---

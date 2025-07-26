@@ -1,7 +1,7 @@
 ---
 title: "AutoPeptideML: a study on how to build more trustworthy peptide bioactivity predictors"
 collection: publications
-category: manuscripts
+category: first-author
 permalink: /publication/2024-autopeptideml
 excerpt: 'This paper discusses the design of an AutoML tool for building peptide bioactivity predictors and how to ensure their robust evaluation through homology partitioning.'
 date: 2024-09-01
