@@ -83,4 +83,4 @@ Service and leadership
   * AISTATS: 2 papers
 
 * Conference Organiser:
-  * CECAM ["Peptide computational methods and applications"](cecam.org/workshop-details/peptide-computational-methods-and-applications-1425)
+  * CECAM "Peptide computational methods and applications"
