@@ -1,12 +1,12 @@
 ---
 title: "AutoPeptideML2: An open-source library for democratising machine learning for peptide bioactivity prediction."
-collection: posters
-type: "Poster"
-permalink: /posters/2025-ismb
+collection: talks
+category: poster
+permalink: /talks/2025-ismb-poster
 venue: "Intelligent Systems for Molecular Biology (ISMB) 2025"
 date: 2025-07-22
-slidesurl: "https://raulfd-creator.github.io/files/ismb2025-bosc.pdf"
-location: "Liverpool, UK"
+location: Liverpool, UK
+slidesurl: https://raulfd-creator.github.io/files/ismb2025-bosc.pdf
 ---
 
 Talk discussing the latest update to the AutoPeptideML library. Presentation given to the Student Council Symposium (SCS) and the Bioinformatics Open Source Conference (BOSC) as part of ISMB 2025.

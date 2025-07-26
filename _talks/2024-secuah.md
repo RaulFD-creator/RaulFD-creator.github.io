@@ -1,7 +1,7 @@
 ---
 title: "Modelos que aprenden el lenguaje de las moléculas y cómo utilizarlos para predecir sus propiedades."
 collection: talks
-type: "Keynote Talk"
+category: keynote
 permalink: /talks/2024-secuah
 venue: "University of Alcala de Henares"
 date: 2024-03-19

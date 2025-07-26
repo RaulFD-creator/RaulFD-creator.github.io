@@ -80,10 +80,20 @@ publication_category:
   first-author:
     title: 'First Author'   
   pre-print:
-    title: 'Preprint'
+    title: 'Preprints'
   co-author:
     title: 'Co-Author'
+
+# Talk category
+talk_category:
+  keynote:
+    title: "Keynote"
+  talk:
+    title: "Talk"
+  poster:
+    title: "Poster"
  
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -226,9 +236,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  posters:
-    output: true
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -284,14 +291,6 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
-      share: true
-  # _poster
-  - scope:
-      path: ""
-      type: posters
-    values:
-      layout: poster
       author_profile: true
       share: true
 
