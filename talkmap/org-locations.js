@@ -5,12 +5,27 @@ var addressPoints = [
     -2.99168
   ],
   [
-    "Modelos que aprenden el lenguaje de las mol\u00e9culas y c\u00f3mo utilizarlos para predecir sus propiedades.<br />University of Alcala de Henares; Alcala de Henares, Spain",
+    "AutoPeptideML2: An open-source library for democratising machine learning for peptide bioactivity prediction.<br />IRB AI for Drug Discovery 2025 [Poster]; Barcelona, Spain",
+    41.3825802,
+    2.177073
+  ],
+  [
+    "AutoPeptideML2: An open-source library for democratising machine learning for peptide bioactivity prediction.<br />Intelligent Systems for Molecular Biology (ISMB) 2025 [Poster]; Liverpool, UK",
+    53.4071991,
+    -2.99168
+  ],
+  [
+    "Modelos que aprenden el lenguaje de las mol\u00e9culas y c\u00f3mo utilizarlos para predecir sus propiedades<br />University of Alcala de Henares; Alcala de Henares, Spain",
     40.481954,
     -3.363981
   ],
   [
-    "AutoPeptideML: automated machine learning for building peptide bioactivity predictors leveraging protein language models.<br />Irish Computational Biology and Genomics Symposium 2023; Galway, Ireland",
+    "A new framework for evaluating model out-of-distribution generalization for the biochemical domain<br />International Conference for Learning Representations (ICLR) 2025 [Poster]; Singapore",
+    1.357107,
+    103.8194992
+  ],
+  [
+    "AutoPeptideML: automated machine learning for building peptide bioactivity predictors leveraging protein language models<br />Irish Computational Biology and Genomics Symposium 2023; Galway, Ireland",
     53.2744122,
     -9.0490601
   ]
