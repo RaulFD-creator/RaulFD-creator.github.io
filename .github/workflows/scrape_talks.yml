@@ -33,4 +33,10 @@ jobs:
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
         git commit -m "Automated update of talk locations" || echo "No changes to commit"
+
+    - name: Push changes
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git remote set-url origin https://x-access-token:${TOKEN}@github.com/RaulFD-creator/RaulFD-creator.github.io.git
         git push
