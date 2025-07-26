@@ -15,6 +15,11 @@ var addressPoints = [
     -2.99168
   ],
   [
+    "Effect of dataset partitioning strategies for evaluating out-of-distribution generalisation for predictive models in biochemistry<br />American Chemical Society (ACS) Fall Meeting [Poster] 2024; Denver, Colorado, United States",
+    39.7392364,
+    -104.984862
+  ],
+  [
     "Modelos que aprenden el lenguaje de las mol\u00e9culas y c\u00f3mo utilizarlos para predecir sus propiedades<br />Conferencia en Se\u00f1alizaci\u00f3n Celullar en Alcal\u00e1 de Henares (SECUAH) [Keynote]; Alcala de Henares, Spain",
     40.481954,
     -3.363981
