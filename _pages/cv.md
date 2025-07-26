@@ -47,9 +47,9 @@ Skills
   * Protein structural modelling
   * Statistics
 * Machine learning
-  * Protein and Chemical Language Models
-  * Graph Neural Networks / Convolutional Neural Networks
-  * Out-of-distribution quantification
+  * Protein and Chemical Language Models / Graph Neural Networks / Convolutional Neural 
+  * Traditional Machine Learning
+  * Model out-of-distribution evaluation
   * Software engineering
 
 Publications
