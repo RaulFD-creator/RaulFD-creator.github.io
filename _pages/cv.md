@@ -37,7 +37,7 @@ Skills
 * Autonomous Research
   * Project Management
   * Public Speaking
-  * Scientific writing
+  * Scientific/Grant/Invention Disclosure writing
 * Computational Chemistry / Cheminformatics
   * Molecular Dynamics
   * Docking
@@ -66,6 +66,8 @@ Service and leadership
 
 * Conference Organiser:
   * CECAM "Peptide computational methods and applications"
+
+* Patents: 3 filed patents
 
 Teaching
 ======
