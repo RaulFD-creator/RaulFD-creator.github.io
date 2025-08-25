@@ -55,13 +55,14 @@ Skills
 Service and leadership
 ======
 
-* Reviewer: 31 papers
+* Reviewer: 35 papers
   * Nature Communications: 1 paper
   * Briefings in Bioinformatics: 3 papers
   * Bioinformatics Advances: 1 paper
   * NeurIPS: 10 papers
   * ICML: 6 (main) + 4 (AI4Science) papers
   * ICLR: 4 papers
+  * AAAI: 4 papers
   * AISTATS: 2 papers
 
 * Conference Organiser:
