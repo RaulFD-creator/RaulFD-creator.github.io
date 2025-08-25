@@ -47,7 +47,7 @@ Skills
   * Protein structural modelling
   * Statistics
 * Machine learning
-  * Protein and Chemical Language Models / Graph Neural Networks / Convolutional Neural 
+  * Deep learning: Protein and Chemical Language Models / GNN / CNN
   * Traditional Machine Learning
   * Model out-of-distribution evaluation
   * Software engineering
@@ -55,17 +55,18 @@ Skills
 Service and leadership
 ======
 
-* Reviewer: 35 papers
+* Reviewer: 36 papers
   * Nature Communications: 1 paper
   * Briefings in Bioinformatics: 3 papers
   * Bioinformatics Advances: 1 paper
+  * Journal of Cheminformatics: 1 paper
   * NeurIPS: 10 papers
   * ICML: 6 (main) + 4 (AI4Science) papers
   * ICLR: 4 papers
   * AAAI: 4 papers
   * AISTATS: 2 papers
 
-* Conference Organiser:
+* Conference Organising Committee:
   * CECAM "Peptide computational methods and applications"
 
 * Patents: 3 filed patents
