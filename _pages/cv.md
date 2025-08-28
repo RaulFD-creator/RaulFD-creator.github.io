@@ -19,7 +19,10 @@ Work experience
 ======
 * Jan 2023 - Present: Industrial PhD Student
   * IBM Research and University College Dublin
-  * Duties includes: Foundational multimodal models for protein and peptide representation learning. Demonstrator.
+  * Duties included:
+     * Research on automation, OOD evaluation, and development of foundation and machine learning models for peptide modelling
+     * Teaching Assistance
+     * Webserver maintenance: [http://peptide.ucd.ie](http://peptide.ucd.ie)
   * Supervisor: Prof. Denis Shields and Dr. Thanh Lam Hoang
 
 * Feb 2022 - Dec 2022: Research and Development Assistant
@@ -36,8 +39,8 @@ Skills
 ======
 * Autonomous Research
   * Project Management
-  * Public Speaking
   * Scientific/Grant/Invention Disclosure writing
+  * Teaching/Science communication
 * Computational Chemistry / Cheminformatics
   * Molecular Dynamics
   * Docking
@@ -51,6 +54,9 @@ Skills
   * Traditional Machine Learning
   * Model out-of-distribution evaluation
   * Software engineering
+* Other
+  * Webserver building and maintenance
+  * Software Engineering (Python/R/MATLAB)
 
 Service and leadership
 ======
