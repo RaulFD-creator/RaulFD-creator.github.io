@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Bioinformatics and Systems Biology, University College Dublin, 2027 (expected)
+* Ph.D in Bioinformatics and Systems Biology, University College Dublin, 2026 (expected)
 * M.S. in Bioinformatics, with focus on Protein Structure and Drug Design, Autonomous University of Barcelona 2022
 * B.S. in Biotechnology, University of Oviedo, 2021
 
