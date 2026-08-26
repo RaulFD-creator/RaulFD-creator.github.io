@@ -3,27 +3,28 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       : #64748b; // Slate 500
+$dark-gray                  : #334155; // Slate 700
+$darker-gray                : #0f172a; // Slate 900
+$light-gray                 : #94a3b8; // Slate 400
+$lighter-gray               : #f1f5f9; // Slate 100
+$lightest-gray              : #f8fafc; // Slate 50
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color               : #ef4444; // Red 500
+$info-color                 : #0ea5e9; // Sky 500
+$notice-color               : #64748b; // Slate 500
+$success-color              : #10b981; // Emerald 500
+$warning-color              : #f59e0b; // Amber 500
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 8px;     // More modern, rounded borders
+$box-shadow                 : 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05); // Modern soft shadow
+$global-transition          : all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
+$sidebar-link-max-width     : 260px;
 $sidebar-screen-min-width   : 1024px;
 
 /* Default light theme for the site */
@@ -31,14 +32,14 @@ $sidebar-screen-min-width   : 1024px;
     --global-base-color                 : #{$gray};
     --global-bg-color                   : #fff;
     --global-border-color               : #{$lighter-gray};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #2f7f93;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
+    --global-code-background-color      : #{$lightest-gray};
+    --global-code-text-color            : #{$dark-gray};
+    --global-fig-caption-color          : #{$gray};
+    --global-link-color                 : #2563eb; // Royal Blue (high accessibility & very modern)
+    --global-link-color-hover           : #1d4ed8; // Darker Royal Blue
+    --global-link-color-visited         : #1d4ed8;
     --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
+    --global-masthead-link-color-hover  : #{$darker-gray};
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};

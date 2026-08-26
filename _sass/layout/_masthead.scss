@@ -4,8 +4,10 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
-  border-bottom: 1px solid var(--global-border-color);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.7);
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -19,11 +21,13 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
+    padding: 1.25em 1.5em;
+    font-family: $sans-serif;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+      padding-left: 2em;
+      padding-right: 2em;
     }
 
     nav {
@@ -32,28 +36,60 @@
 
     a {
       text-decoration: none;
+      font-weight: 500;
+      color: var(--global-masthead-link-color);
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: var(--global-link-color);
+      }
     }
   }
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+    display: flex;
+    align-items: center;
   }
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: transparent !important;
   display: block;
   list-style-type: none;
   white-space: nowrap;
 
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
+    
+    a {
+      font-size: 1.15rem;
+      font-weight: 800 !important;
+      color: var(--global-masthead-link-color-hover) !important;
+      letter-spacing: -0.025em;
+      
+      &:hover {
+        color: var(--global-link-color) !important;
+      }
+    }
+  }
+
+  &:not(&--lg) {
+    a {
+      font-size: 0.925rem;
+      padding: 6px 12px;
+      border-radius: 6px;
+      margin-left: 4px;
+
+      &:hover {
+        background-color: #f1f5f9;
+        color: var(--global-link-color);
+      }
+    }
   }
 }

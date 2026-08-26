@@ -10,56 +10,138 @@
   }
 
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(9.5 of 12 last); // Adjusted slightly to balance grid columns
     @include prefix(0.5 of 12);
   }
 
   a {
-    text-decoration: underline;
+    color: var(--global-link-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--global-transition);
 
     &:hover {
+      color: var(--global-link-color-hover);
       text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
       }
     }
   }
 }
 
 .archive__subtitle {
-  margin: 1.414em 0 0;
-  padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: var(--global-text-color-light);
-  border-bottom: 1px solid var(--global-border-color);
+  margin: 1.8em 0 1em;
+  padding-bottom: 0.4em;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--global-text-color);
+  letter-spacing: -0.01em;
+  border-bottom: 2px solid var(--global-border-color);
 
-  + .list__item .archive__item-title {
+  + .list__item .archive__item {
     margin-top: 0.5em;
   }
 }
 
+.archive__item {
+  display: block;
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px; // Modern rounded card shape
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.01), 0 1px 2px -1px rgba(0, 0, 0, 0.01);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative; // Crucial for overlaystretched-link support
+
+  &:hover {
+    border-color: rgba(37, 99, 235, 0.25); // Subtle royal blue highlight border
+    box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.04), 0 4px 8px -4px rgba(0, 0, 0, 0.04);
+    transform: translateY(-2px); // Minimal premium lift effect
+
+    .archive__item-title a {
+      color: var(--global-link-color);
+    }
+  }
+
+  /* Elegant Bootstrap-like overlay stretched link to map click events to card */
+  .stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+  }
+
+  /* Style citation/download links beautifully as pill badges */
+  p a {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    margin-right: 6px;
+    margin-top: 6px;
+    font-size: 0.775rem;
+    font-weight: 600;
+    border-radius: 20px;
+    text-decoration: none !important;
+    border: 1px solid var(--global-border-color);
+    background: #f8fafc; // slate-50 background
+    color: var(--global-text-color-light) !important;
+    transition: all 0.2s ease;
+    position: relative; // Ensure link sits above the stretched-link overlay
+    z-index: 2;         // Ensure link sits above the stretched-link overlay
+
+    &:hover {
+      background: #eff6ff; // subtle blue background
+      border-color: rgba(37, 99, 235, 0.3);
+      color: var(--global-link-color) !important;
+    }
+  }
+}
+
 .archive__item-title {
-  margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  margin-top: 0;
+  margin-bottom: 0.35em;
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.015em;
+  line-height: 1.4;
+
+  a {
+    color: var(--global-text-color-hover) !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--global-link-color) !important;
+    }
+  }
 
   a + a {
     opacity: 0.5;
+    margin-left: 8px;
   }
 }
 
 /* remove border*/
 .page__content {
-
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0;
     border-bottom: none;
   }
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+  margin-top: 0.4em;
+  margin-bottom: 0.6em;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
 
   & + p {
     text-indent: 0;
@@ -67,7 +149,7 @@
 }
 
 .archive__item-teaser {
-  border-radius: $border-radius;
+  border-radius: 8px;
   overflow: hidden;
   img {
     width: 100%;
@@ -76,11 +158,7 @@
 
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
-  }
-
-  .archive__item-title {
-    text-decoration: underline;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
 }
 

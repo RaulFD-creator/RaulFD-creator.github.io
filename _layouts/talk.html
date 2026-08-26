@@ -41,7 +41,23 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.excerpt %}
+          <p>{{ page.excerpt | markdownify }}</p>
+        {% endif %}
+
         {{ content }}
+
+        {% if page.slidesurl or page.paperurl %}
+          <p>
+            {% if page.slidesurl %}
+              <a href="{{ page.slidesurl }}" class="btn btn--inverse"><i class="fa fa-fw fa-desktop" aria-hidden="true"></i> Download Slides</a>
+            {% endif %}
+            {% if page.paperurl %}
+              <a href="{{ page.paperurl }}" class="btn btn--inverse"><i class="fa fa-fw fa-file-pdf" aria-hidden="true"></i> Download Paper</a>
+            {% endif %}
+          </p>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

@@ -45,6 +45,13 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' and page.excerpt %}
+          <h2>Abstract</h2>
+          <p>{{ page.excerpt | markdownify }}</p>
+        {% elsif page.collection == 'teaching' and page.excerpt %}
+          <p>{{ page.excerpt | markdownify }}</p>
+        {% endif %}
+
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl %}
